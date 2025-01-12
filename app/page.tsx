@@ -2,7 +2,7 @@
 
 import { useUser } from '@clerk/nextjs'
 import { useState } from 'react'
-import { supabase } from '@/lib/supabase'
+import { supabase } from '@/utils/supabase'
 import type { CreatePlanInput } from '@/types/api'
 
 export default function Home() {

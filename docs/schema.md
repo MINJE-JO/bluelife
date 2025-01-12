@@ -11,7 +11,7 @@
 | Column Name    | Type      | Constraints | Description |
 |---------------|-----------|-------------|-------------|
 | id            | uuid      | PK, default: gen_random_uuid() | 고유 식별자 |
-| clerk_user_id | uuid      | NOT NULL    | Clerk 사용자 ID |
+| clerk_user_id | text      | NOT NULL    | Clerk 사용자 ID |
 | year          | integer   | NOT NULL    | 연도 |
 | month         | integer   | NOT NULL, check (1-12) | 월 |
 | content       | text      | NOT NULL    | 프로젝트 이름/내용 |

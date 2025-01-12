@@ -12,12 +12,12 @@
 |---------------|-----------|-------------|-------------|
 | id            | uuid      | PK, default: gen_random_uuid() | 고유 식별자 |
 | clerk_user_id | text      | NOT NULL    | Clerk 사용자 ID |
-| year          | integer   | NOT NULL    | 연도 |
-| month         | integer   | NOT NULL, check (1-12) | 월 |
+| start_year    | integer   | NOT NULL    | 시작 연도 |
+| start_month   | integer   | NOT NULL, check (1-12) | 시작 월 |
+| end_year      | integer   | NOT NULL    | 종료 연도 |
+| end_month     | integer   | NOT NULL, check (1-12) | 종료 월 |
 | content       | text      | NOT NULL    | 프로젝트 이름/내용 |
 | color         | text      | NOT NULL    | 프로젝트 색상 코드 |
-| start_date    | date      | NOT NULL    | 시작일 |
-| end_date      | date      | NOT NULL    | 종료일 |
 | created_at    | timestamptz | NOT NULL, default: now() | 생성일시 |
 | updated_at    | timestamptz | NOT NULL, default: now() | 수정일시 |
 

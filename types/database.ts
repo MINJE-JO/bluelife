@@ -1,12 +1,12 @@
 export type Plan = {
   id: string
   clerk_user_id: string
-  year: number
-  month: number
+  start_year: number
+  start_month: number
+  end_year: number
+  end_month: number
   content: string
   color: string
-  start_date: string  // ISO 날짜 문자열
-  end_date: string    // ISO 날짜 문자열
   created_at: string  // ISO 날짜 문자열
   updated_at: string  // ISO 날짜 문자열
 }

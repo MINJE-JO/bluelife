@@ -1,0 +1,12 @@
+# nextjs
+- app router 사용
+- alias는 @ 사용
+
+# supabase
+- utils/supabase/client.ts 사용
+
+# clerk
+- utils/supabase/clerk-client.ts 사용
+
+# shadcn
+- npm install shadcn@latest 사용

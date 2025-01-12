@@ -10,12 +10,12 @@ export type PlanResponse = ApiResponse<Plan>
 
 // API 요청 타입들
 export type CreatePlanInput = {
-  year: number
-  month: number
+  start_year: number
+  start_month: number
+  end_year: number
+  end_month: number
   content: string
   color: string
-  start_date: string
-  end_date: string
 }
 
 export type UpdatePlanInput = Partial<CreatePlanInput> 

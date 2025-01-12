@@ -2,34 +2,16 @@
 
 ## 1. 초기 설정 및 환경구성
 
-### Supabase 설정
-- [ ] Supabase 프로젝트 생성
-- [ ] 데이터베이스 스키마 설계 및 생성
-  - [ ] plans 테이블 생성
-  - [ ] RLS(Row Level Security) 정책 설정
-- [ ] Supabase Client 설정
-- [ ] 실시간 구독 설정
-
-### Clerk 설정
-- [ ] Clerk 프로젝트 생성
-- [ ] 소셜 로그인 제공자 설정 (Google, GitHub)
-- [ ] 환경 변수 설정
-- [ ] Middleware 구성
-- [ ] 인증 컴포넌트 구현
-  - [ ] SignIn 페이지
-  - [ ] SignUp 페이지
-  - [ ] UserProfile 페이지
-
 ### Shadcn/UI 설정
 - [ ] Shadcn/UI 초기 설정
 - [ ] 필요한 컴포넌트 추가
-  - [ ] Table
-  - [ ] Modal
-  - [ ] Button
-  - [ ] Calendar
-  - [ ] ColorPicker
-  - [ ] Tooltip
-  - [ ] ContextMenu
+  - [x] Table
+  - [x] Modal
+  - [x] Button
+  - [x] Calendar
+  - [x] ColorPicker
+  - [x] Tooltip
+  - [x] ContextMenu
 
 ## 2. 핵심 기능 구현
 

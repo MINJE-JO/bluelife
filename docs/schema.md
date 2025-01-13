@@ -16,6 +16,7 @@
 | start_month   | integer   | NOT NULL, check (1-12) | 시작 월 |
 | end_year      | integer   | NOT NULL    | 종료 연도 |
 | end_month     | integer   | NOT NULL, check (1-12) | 종료 월 |
+| duration      | integer   | NOT NULL    | 기간 (월 단위) |
 | content       | text      | NOT NULL    | 프로젝트 이름/내용 |
 | color         | text      | NOT NULL    | 프로젝트 색상 코드 |
 | created_at    | timestamptz | NOT NULL, default: now() | 생성일시 |

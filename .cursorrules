@@ -1,3 +1,7 @@
+# 커서 규칙
+- before making new file, check if it already exists
+- before making new function, check if it already exists
+
 # nextjs
 - app router 사용
 - alias는 @ 사용

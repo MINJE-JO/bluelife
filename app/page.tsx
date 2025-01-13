@@ -15,7 +15,6 @@ export default function Home() {
       {user ? (
         <div>
           <p className="mb-4">로그인된 사용자: {user.emailAddresses[0].emailAddress}</p>
-          <PlanForm />
           <div className="mt-4 flex justify-center">
             <Button asChild>
               <Link href="/10year">10년</Link>

@@ -9,4 +9,5 @@
 - utils/supabase/clerk-client.ts 사용
 
 # shadcn
-- npm install shadcn@latest 사용
+- npm install shadcn@latest 
+- components/shadcn 에서 import하기

@@ -25,7 +25,7 @@ export default function PlanInput() {
     }
 
     try {
-      const { data, error } = await supabase
+      const { error } = await supabase
         .from('plans')
         .insert({
           clerk_user_id: user.id,
